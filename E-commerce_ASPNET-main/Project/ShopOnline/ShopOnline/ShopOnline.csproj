@@ -704,9 +704,6 @@
     <Content Include="Content\img\about\testimonial-author.jpg" />
     <Content Include="Content\img\about\testimonial-pic.jpg" />
     <Content Include="Content\img\avatar\avatar.jpg" />
-    <Content Include="Content\img\banner\banner-1.jpg" />
-    <Content Include="Content\img\banner\banner-2.jpg" />
-    <Content Include="Content\img\banner\banner-3.jpg" />
     <Content Include="Content\img\blog\Adidas-Stan-Smith-1160x677.jpg" />
     <Content Include="Content\img\blog\blog-1.jpg" />
     <Content Include="Content\img\blog\blog-2.jpg" />
@@ -748,7 +745,6 @@
     <Content Include="Content\img\instagram\instagram-4.jpg" />
     <Content Include="Content\img\instagram\instagram-5.jpg" />
     <Content Include="Content\img\instagram\instagram-6.jpg" />
-    <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\Orders\empty_state.png" />
     <Content Include="Content\img\Orders\paypalcontent.svg" />
     <Content Include="Content\img\Orders\paypalicon.svg" />
@@ -871,17 +867,17 @@
     <Compile Include="Areas\Admin\Controllers\DashBoardController.cs" />
     <Compile Include="Areas\Admin\Controllers\LoginMemberController.cs" />
     <Compile Include="Controllers\ArticleController.cs" />
-    <Compile Include="Controllers\GioHangController.cs" />
-    <Compile Include="Controllers\TrangChuController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
-    <Compile Include="Controllers\NguoiDungController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Article.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\GioHang.cs" />
+    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Contact.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -1129,6 +1125,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\img\banner\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

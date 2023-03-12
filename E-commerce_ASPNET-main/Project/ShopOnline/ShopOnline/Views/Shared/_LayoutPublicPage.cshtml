@@ -32,7 +32,7 @@
     <script>(function (w, d) { w.CollectId = "60827f2b34b8b76f099ef81c"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async = true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
 </head>
 
-<body>
+<body style="background-color: #FFA500 ">
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -56,8 +56,6 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-            <a href="#" class="search-switch"><img src="~/Content/img/icon/search.png" alt=""></a>
-            <a href="#"><img src="~/Content/img/icon/heart.png" alt=""></a>
             <a href="~/Cart/Cart"><img src="~/Content/img/icon/cart.png" alt=""> <span>0</span></a>
             <div class="price">$0.00</div>
         </div>
@@ -68,7 +66,7 @@
     </div>
     <!-- Offcanvas Menu End -->
     <!-- Header Section Begin -->
-    <header class="header">
+    <header class="header" style="background-color: #FFA500 ">
         <div class="header__top">
             <div class="container">
                 <div class="row">
@@ -106,19 +104,19 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="~/Home/Index"><img src="~/Content/img/logo.png" alt=""></a>
+                        <a href="~/Home/Index" style="width:70%"><img src="~/Content/img/logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul class="navlist">
-                            <li class="active"><a href="~/Home/Index">Home</a></li>
-                            <li><a href="~/Shop/ProductList">News</a></li>
-                            <li><a href="~/Article/ArticleList">Blog</a></li>
-                            <li><a href="~/Home/About">About</a></li>
-                            <li><a href="~/Home/Contact">Contacts</a></li>
+                            <li class="active"><a href="~/Home/Index" style="font-size:70%">Trang chủ</a></li>
+                            <li><a href="~/Shop/ProductList"style="font-size:70%">Sản phẩm</a></li>
+                            <li><a href="~/Article/ArticleList" style="font-size:70%">Bài viết</a></li>
+                            <li><a href="~/Home/About" style="font-size:70%">Về chúng tôi</a></li>
+                            <li><a href="~/Home/Contact" style="font-size:70%">Liên lạc</a></li>
                             <li>
-                                <a href="#">More+</a>
+                                <a href="#" style="font-size:70%">More+</a>
                                 <ul class="dropdown">
                                     @Html.Action("Categories", "Shop")
                                 </ul>
@@ -139,13 +137,13 @@
     @RenderBody()
 
     <!-- Footer Section Begin -->
-    <footer class="footer">
+    <footer class="footer" style="background-color: #000000 ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="#"><img src="~/Content/img/footer-logo.png" alt=""></a>
+                            <a href="#"><img src="~/Content/img/footer-logo.g" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
                         <a href="#"><img src="~/Content/img/payment.png" alt=""></a>
